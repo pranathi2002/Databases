@@ -16,13 +16,13 @@ public class InsertRecordIntoDb {
 
             stmt = con.createStatement(); // Create Statement
 
-            String query0 = "INSERT INTO MyMovies values ('bigil','vijay','nayanathara', 2019,'atlee');";
+            String query0 = "INSERT INTO MyMovies values ('sarileru nikevaru','mahesh','rashmika', 2019,'anil');";
             stmt.executeUpdate(query0); // Create Query-1
 
             String query1 = "INSERT INTO MyMovies values ('master','vijay','malavika', 2020,'lokesh');";
             stmt.executeUpdate(query1); // Create Query-1
 
-            String query2 = "INSERT INTO MyMovies values ('beast','vijay','pooja',2022,'nelson');";
+            String query2 = "INSERT INTO MyMovies values ('pushpa','allu arjun','rashmika',2021,'sukumar');";
             stmt.executeUpdate(query2); // Create Query-2
 
             String query3 = "INSERT INTO MyMovies values ('jersey','nani','Shradda',2018,'gowtham');";
